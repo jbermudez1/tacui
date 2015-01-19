@@ -28,6 +28,51 @@
 	display: inline-block;
 	max-width: 240px;
 }
+
+/*IMAGENES*/
+
+#img-1 > .bg {
+	background-image : url(../img/01.jpg);
+}
+
+#img-2 > .bg {
+	background-image : url(../img/02.jpg);
+}
+
+#img-3 > .bg {
+	background-image : url(../img/03.jpg);
+}
+
+#img-4 > .bg {
+	background-image : url(../img/04.jpg);
+}
+
+#img-5 > .bg {
+	background-image : url(../img/05.jpg);
+}
+
+#img-6 > .bg {
+	background-image : url(../img/06.jpg);
+}
+
+#img-7 > .bg {
+	background-image : url(../img/07.jpg);
+}
+
+#img-8 > .bg {
+	background-image : url(../img/08.jpg);
+}
+
+#img-9 > .bg {
+	background-image : url(../img/09.jpg);
+}
+
+#img-10 > .bg {
+	background-image : url(../img/10.jpg);
+}
+
+
+
 }
 
 /* Medium devices (desktops, 992px and up) */

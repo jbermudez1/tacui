@@ -263,14 +263,14 @@ footer:after{
 }*/
 
 #img-1 > .bg {
-	background-image : url(../img/01.jpg);
+	background-image : url(../img/movil/01.jpg);
 	background-repeat: no-repeat;
 	background-position: center; center;
 	background-size: cover;
 }
 
 #img-2 > .bg {
-	background-image: url(../img/02.jpg);
+	background-image: url(../img/movil/02.jpg);
 	background-position: center center;
 		background-repeat: no-repeat;
 	background-color: #ebf1fd;
@@ -278,51 +278,51 @@ footer:after{
 }
 
 #img-3 > .bg {
-	background-image: url(../img/03.jpg);
+	background-image: url(../img/movil/03.jpg);
 	background-position: center center;
 		background-size: cover;
 }
 
 #img-4 > .bg {
 	/*background-image: url(../img/asian.jpg);*/
-	background-image: url(../img/04.jpg);
+	background-image: url(../img/movil/04.jpg);
 	background-size: cover;
 	background-position: center center;
 }
 
 #img-5 > .bg {
 	/*background-image: url(../img/cabannabg.jpg);*/
-	background-image: url(../img/05.jpg);
+	background-image: url(../img/movil/05.jpg);
 	background-size: cover;
 		background-position: center center;
 }
 
 #img-6 > .bg {
-	background-image: url(../img/06.jpg);
+	background-image: url(../img/movil/06.jpg);
 	background-size: cover;
 	background-position: center center;
 }
 
 #img-7 > .bg {
-	background-image: url(../img/07.jpg);
+	background-image: url(../img/movil/07.jpg);
 	background-size: cover;
 		background-position: center center;
 
 }
 
 #img-8 > .bg {
-	background-image: url(../img/08.jpg);
+	background-image: url(../img/movil/08.jpg);
 	background-position: center center;
 	background-size: cover;
 	background-repeat: no-repeat;
 }
 #img-9 > .bg {
-	background-image: url(../img/09.jpg);
+	background-image: url(../img/movil/09.jpg);
 	background-position: bottom center;
 	background-size: cover;
 }
 #img-10 > .bg {
-	background-image: url(../img/10.jpg);
+	background-image: url(../img/movil/10.jpg);
 	background-position: center center;
 	background-size: cover;
 }
