@@ -1,0 +1,497 @@
+body, html, section, .bg {
+	height: 100%;
+	min-height: 100%;
+	position: relative;
+}
+img {
+	max-width: 100%;
+	width: 100%;
+}
+.logo {
+	position: absolute;
+	z-index: 98;
+	width: 40%;
+	top: 4%;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+nav  {
+
+  height: 80%;
+  margin: auto;
+  width: 5%;
+  z-index: 2;
+  position: absolute;
+  right: 10%;
+  top: 0;
+  bottom: 0; 
+ list-style: none;
+  padding: 0px;
+
+}
+.vectores {
+	position: absolute;
+	z-index: 99;
+	width: 15%;
+	bottom: 5%;
+	left: 4%;
+	display: none;
+}
+.vectores7 {
+	position: absolute;
+	z-index: 98;
+	width: 45%;
+	bottom: 5%;
+	left: 4%;
+	display: none
+	
+}
+.vectores10 {
+	position: absolute;
+	z-index: 98;
+	width: 25%;
+	bottom: 5%;
+	left: 0;
+	right: 0;
+	margin-right: auto;
+	margin-left: auto;
+	display: none
+	
+	
+}
+.titulossvg {
+	position: absolute;
+	z-index: 99;
+	bottom: 5%;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 400px;
+}
+/*.bola {
+	fill: rgba(255,255,255, 0.6);
+	background-color: red
+}*/
+
+/*prueba
+.tabla {
+	height: 9%;
+	text-align: center;
+	 background: rgba(255,255,255, 0.8);
+   border-radius: 0.2em;
+   vertical-align: middle;
+   margin-top: 10%;
+   position: relative;
+
+}
+.tabla span {
+	  height: 50%;
+  margin: auto;
+  width: 5%;
+  z-index: 2;
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0; 
+
+ list-style: none;
+  padding: 0px;
+
+}
+/**/
+nav ul li {
+list-style:none;
+color: black;
+  background: rgba(255,255,255, 0.8);
+   border-radius: 10em;
+  -moz-border-radius: 10em;
+  -webkit-border-radius: 10em;
+  line-height: 3em;
+  margin-right: 15px;
+  text-align: center;
+  width: 3em;
+  margin-top: 5px;
+}
+
+.btnActivo {
+	background: rgba(000,000,000, 0.8);
+	color: white
+}
+
+
+section {
+	position: fixed;
+	width: 100%;
+	transform: translate3d(100%, 0px, 0px);
+/*		  -webkit-transition-duration: .25s;
+  		transition-duration: .25s;*/
+}
+section >.container {
+	z-index: 2;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+/*CIRCULOS*/
+.circulo{
+    float:left;
+    width:600px;
+    height:900px;
+    overflow:hidden;
+    margin:0 50px;
+    color:white;
+    font-size:13px;
+    padding:10px;
+   background-color: red;
+    background-size:100% 100%;
+    /*declare shape using the shape function circle()*/
+    shape-inside: circle(160px at 400px 60px);
+}
+
+/*TEXTOS*/
+	#article{
+		column-count: 2;
+		column-gap: 1em;
+	}
+ 
+	/* with SVG shape */
+	#shape{
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		wrap-flow: both;
+		shape-outside: circle(50%, 50%, 30%);    
+	} 
+ 
+	/* with image */
+	 #shape{
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		wrap-flow: both; 
+		shape-outside: url(img/logo.svg);
+		shape-image-threshold: 100%;
+	}
+/**/
+.margen1 {
+	margin-top: 50px
+}
+.bgn{
+ background-color: rgba(0, 0, 0, 0.1);
+ padding: 3px
+}
+.bgb{
+ background-color: rgba(255, 255, 255, 0.5);
+ padding: 8px
+}
+#cargando {
+	z-index: 99;
+	color: white;
+	width: 100%;
+	height: 100%;
+	min-height: 100%;
+	background-image: url(../img/cargando.jpg);
+	background-color: white;
+	background-size: cover;
+	background-position: center;
+	position: absolute;
+}
+.posicionCargando {
+	top: 40%;
+	position: absolute;
+	left: 47%
+}
+#porcentajeCarga {
+	font-size: 3em;
+	font-weight: 100;
+}
+.csspinner {
+	position: inherit!important;
+	background-color: white !important
+}
+.eliminalo {
+	display: hidden
+}
+.swipe {
+	max-width: 80px;
+	height: auto;
+	opacity: 0.2;
+}
+.perspectiva1 {
+	position: absolute;
+	z-index: 99;
+	height: 100%;
+	background-image: url(../img/edificiodesenfocado.png);
+	height: 100%;
+	width: 400px;
+	background-position:bottom;
+	left: -7%;
+
+}
+footer {
+	position: absolute;
+	width: 150px;
+	display: inline-block;
+	bottom: 5px;
+	left: 50%;
+	margin-left: -75px;
+	z-index: 99;
+	opacity: 0.9;
+	font-size: 0.8em;
+	/*transform: rotate(-90deg);*/
+}
+footer a, a:hover {
+	color: black
+}
+footer:after{
+	  background-color: #c78630;
+    content: " ";
+    display: block;
+    height: 1px;
+    margin-left: 0;
+    margin-right: auto;
+    margin-top: 1px;
+    width: 60px;
+}
+/*.bg{
+	background-size: cover;
+}*/
+
+#img-1 > .bg {
+	background-image : url(../img/01.jpg);
+	background-repeat: no-repeat;
+	background-position: center; center;
+	background-size: cover;
+}
+
+#img-2 > .bg {
+	background-image: url(../img/02.jpg);
+	background-position: center center;
+		background-repeat: no-repeat;
+	background-color: #ebf1fd;
+		background-size: cover;
+}
+
+#img-3 > .bg {
+	background-image: url(../img/03.jpg);
+	background-position: center center;
+		background-size: cover;
+}
+
+#img-4 > .bg {
+	/*background-image: url(../img/asian.jpg);*/
+	background-image: url(../img/04.jpg);
+	background-size: cover;
+	background-position: center center;
+}
+
+#img-5 > .bg {
+	/*background-image: url(../img/cabannabg.jpg);*/
+	background-image: url(../img/05.jpg);
+	background-size: cover;
+		background-position: center center;
+}
+
+#img-6 > .bg {
+	background-image: url(../img/06.jpg);
+	background-size: cover;
+	background-position: center center;
+}
+
+#img-7 > .bg {
+	background-image: url(../img/07.jpg);
+	background-size: cover;
+		background-position: center center;
+
+}
+
+#img-8 > .bg {
+	background-image: url(../img/08.jpg);
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+#img-9 > .bg {
+	background-image: url(../img/09.jpg);
+	background-position: bottom center;
+	background-size: cover;
+}
+#img-10 > .bg {
+	background-image: url(../img/10.jpg);
+	background-position: center center;
+	background-size: cover;
+}
+/*#img-11 > .bg {
+	background-size: cover;
+	background-position: bottom center;
+	background-image: url(../img/terraza.jpg);
+}
+#img-12 > .bg {
+	background-size: cover;
+	background-position: bottom center;
+	background-image: url(../img/torre2bg.jpg);
+}
+#img-13 > .bg {
+	background-size: cover;
+	background-position: top center;
+	background-image: url(../img/bancos.jpg);
+}
+#img-14 > .bg {
+	background-size: cover;
+	background-position: top center;
+	background-image: url(../img/salaEsperabg.jpg);
+}
+#img-15 > .bg {
+	background-size: cover;
+	background-position: bottom center;
+	background-image: url(../img/salaJuntasbg.jpg);
+}
+#img-16 > .bg {
+	background-size: cover;
+	background-position: bottom center;
+	background-image: url(../img/torre2vista.jpg);
+}
+#img-17 > .bg {
+	background-size: cover;
+	background-position: bottom left;
+	background-image: url(../img/nocturna.jpg);
+}
+#img-18 > .bg {
+	background-size: cover;
+	background-position: bottom left;
+	background-image: url(../img/nocturnablur.jpg);
+}*/
+.activo {
+		transform: translate3d(0%, 0px, 0px);
+		-moz-traonform: translate3d(0%, 0px, 0px);
+}
+.muebelo {
+		transform: translate3d(-30%, 0px, 0px);
+		-moz-traonform: translate3d(-30%, 0px, 0px);	
+}
+.accion {
+-webkit-transition-duration: 50s;
+  transition-duration: 50s;
+}
+.oculto {
+	display: none
+}
+
+
+.sensible {
+	display: inline-block;
+	height: auto;
+}
+/*.boton{
+	border: 2px solid #0055FF;
+	border-radius: 5px;
+	margin: 5px 5px;
+	padding: 5px;
+}*/
+.tituloPortada {
+
+}
+
+/*POSICION DE LOS TEXNOS DE CADA NIVEL*/
+.textosPortada {
+		text-align: left;
+		color: #717171;
+		margin-top: 10%;
+		margin-left: 10%;
+
+	}
+.fgris {
+	color: #4e4e4e;
+}
+.fblanco {
+	color: white
+}
+.fgris2 {
+	color:#989898
+}
+.textosNivelUno {
+		text-align: right;
+		margin-top: 5%;
+		width: 35%;
+		position: absolute;
+		right: 5%
+}
+.textosbottom {
+	text-align: center;
+	margin-bottom: 30px;
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+	margin-left: -15px;
+}
+.textostop {
+	text-align: center;
+	margin-bottom: 20px;
+	position: absolute;
+	top: 25px;
+	width: 100%;
+	margin-left:-15px;
+}
+.textobold {
+	
+	font-size: 2.3em;
+	font-weight: bold;
+}
+.sombraBlanca {
+	 text-shadow: 0px 0px 2px #FFFFFF;
+}
+.textslim {
+	font-size: 2.7em;
+	font-weight: 200;
+	line-height: 45px;
+}
+.textslimChico {
+	font-size: 2.6em;
+	font-weight: 200;
+	line-height: 45px;
+
+}
+.textslimChicoCentrado {
+	font-size: 2.1em;
+	font-weight: 200;
+	line-height: 45px;
+}
+.signo {
+	color: #c78630 !important;
+	font-size: 2.5em
+}
+.textslim:after {
+   background-color: #c78630;
+    content: " ";
+    display: block;
+    height: 2px;
+    margin-left: 0px;
+    margin-right: auto;
+    margin-top: 9px;
+    width: 50px;
+}
+.textslimChico:after {
+   background-color: #c78630;
+    content: "";
+    display: block;
+    height: 2px;
+    margin-left: auto;
+    margin-right: 0px;
+    margin-top: 9px;
+    width: 50px;
+}
+.textslimChicoCentrado:after {
+   background-color: #c78630;
+    content: "";
+    display: block;
+    height: 2px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 7px;
+    width: 50px;
+}
